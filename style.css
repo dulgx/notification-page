@@ -1,0 +1,65 @@
+:root {
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --very-light-grayish-blue: hsl(210, 60%, 98%);
+    --light-grayish-blue-1: hsl(211, 68%, 94%);
+    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --dark-grayish-blue: hsl(219, 12%, 42%);
+    --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: var(--very-light-grayish-blue);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#notf-unread-num {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.notf-space {
+    display: flex;
+    margin: 5px;
+    background-color: var(--very-light-grayish-blue);
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.profile-image {
+    width: 55px;
+}
